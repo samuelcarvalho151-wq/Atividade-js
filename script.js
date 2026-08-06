@@ -85,14 +85,21 @@ document.getElementById("contador6").textContent = contador
 
 
 
-
 // ---------- Exercicio 7 ----------
 // Ao clicar no botao, pegue o valor digitado no #input7
 // e mostre dentro do #resultado7
 //
 // Dica: use .value para pegar o texto do input
 
+document.getElementById("btn7").addEventListener("click", function(){
+let texto = (document.getElementById("input7").value)
+document.getElementById("resultado7").textContent = texto;
 
+
+
+
+
+}) 
 
 // ---------- Exercicio 8 ----------
 // Ao clicar no botao, adicione a classe "destaque" ao #texto8
