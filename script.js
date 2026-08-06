@@ -106,6 +106,19 @@ document.getElementById("resultado7").textContent = texto;
 //
 // Dica: use .classList.add("destaque")
 
+document.getElementById("btn8").addEventListener("click", function(){
+document.getElementById("texto8").classList.add("destaque")
+
+
+
+
+})
+
+
+
+
+
+
 
 
 // ---------- Exercicio 9 ----------
