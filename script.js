@@ -74,6 +74,16 @@ document.getElementById("caixa5").style.backgroundColor = "yellow"
 // Dica: leia o valor atual com .textContent, converta para
 // numero com Number() e some 1
 
+document.getElementById("btn6").addEventListener("click", function(){
+let contador = Number(document.getElementById("contador6").textContent);
+contador = 1
+document.getElementById("contador6").textContent = contador
+
+
+
+})
+
+
 
 
 // ---------- Exercicio 7 ----------
