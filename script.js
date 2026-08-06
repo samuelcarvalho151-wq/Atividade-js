@@ -26,6 +26,11 @@ document.getElementById("btn2").addEventListener("click", function(){
 // Ao clicar no botao, esconda o elemento #texto3
 //
 // Dica: use .style.display = "none"
+document.getElementById("btn3").addEventListener("click", function(){
+     document.getElementById("texto3").style.display = "none"
+
+
+} )
 
 
 
@@ -34,6 +39,11 @@ document.getElementById("btn2").addEventListener("click", function(){
 // "Novo item" dentro da lista #lista4
 //
 // Dica: use document.createElement() e .appendChild()
+
+     
+
+
+
 
 
 
