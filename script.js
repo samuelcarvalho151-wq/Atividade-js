@@ -5,10 +5,9 @@
 
 
 // ---------- Exercicio 1 ----------
-// Ao clicar no botao, mude o texto do elemento #texto1
-// para "Texto alterado com sucesso!"
-//
-// Dica: use document.getElementById() e .textContent
+function alterarTexto() {
+    document.getElementById("texto1").textContent = "Texto alterado com sucesso!";  
+}
 
 
 
