@@ -40,8 +40,14 @@ document.getElementById("btn3").addEventListener("click", function(){
 //
 // Dica: use document.createElement() e .appendChild()
 
-     
+    document.getElementById("btn4").addEventListener("click", function () {
+    let novoItem = document.createElement("li");
+    novoItem.textContent = "Novo item";
+    document.getElementById("lista4").appendChild(novoItem);
+});
 
+
+ 
 
 
 
