@@ -5,10 +5,9 @@
 
 
 // ---------- Exercicio 1 ----------
-function alterarTexto() {
-    document.getElementById("texto1").textContent = "Texto alterado com sucesso!";  
-}
-
+document.getElementById("btn1").addEventListener("click", function () {
+    document.getElementById("texto1").textContent = "Texto alterado com sucesso!"
+})
 
 
 // ---------- Exercicio 2 ----------
