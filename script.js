@@ -136,3 +136,9 @@ lista.removeChild(lista.lastElementChild);
 //
 // Dica: use .src = "nova-url"
 
+document.getElementById("btn10").addEventListener("click", function(){
+document.getElementById("imagem10").src = "https://placecats.com/300/200"
+
+
+})
+
